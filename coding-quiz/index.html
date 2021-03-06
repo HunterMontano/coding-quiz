@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    
+</head>
+<body>
+    <!--view highscores-->
+    <div class="highscores">
+        <p>View High Scores</p>
+    </div>
+    <div class="timer" id="sec">
+        <p>
+            Timer
+        </p>
+    </div>
+    <!--Coding quiz Challenge-->
+    
+    <div class="container">
+        <p id="title">
+            Coding Quiz Challenge 
+        </p>
+        <!--START Button-->
+        <button class="start-btn" id="start-btn">START</button>
+        <div id="answer-buttons" class="btn-grid hide">
+            <div id="questions">
+            
+            </div>
+            <button class="btn" id="btn0">answer1</button>
+            <button class="btn" id="btn1">answer2</button>
+            <button class="btn" id="btn2">answer3</button>
+            <button class="btn" id="btn3">answer4</button>
+        </div>
+        
+    </div>
+    <!--Time 60-->
+    <script src="questions.js">
+
+    </script>
+    <script defer src="script.js"></script>
+</body>
+</html>

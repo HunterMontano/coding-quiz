@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.highscores {
+    font-size: larger;   
+}
+
+.container {
+    padding: 30px;
+    background-color: burlywood;
+    font-size: 50px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    text-align: right;
+    display: inline;
+    font-size: 20px;
+}
+
+.start-btn {
+    font-size: 40px;
+    background-color: blueviolet;
+    color: cornsilk;
+    border: solid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.start-btn:hover {
+    border-color: black;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: blueviolet;
+    color: cornsilk;
+    border: solid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#title {
+    text-align: left;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.hide {
+    display: none;
+}
